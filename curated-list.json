@@ -1,0 +1,41 @@
+{
+  "plugin": {
+    "name": "mattp",
+    "version": "1.2.3",
+    "description": "Curated subset of Matt Pocock's engineering and productivity skills"
+  },
+  "skills": [
+    {
+      "name": "grill-me",
+      "path": "productivity/grill-me"
+    },
+    {
+      "name": "grilling",
+      "path": "productivity/grilling",
+      "dependencyOf": ["grill-me", "grill-with-docs"]
+    },
+    {
+      "name": "grill-with-docs",
+      "path": "engineering/grill-with-docs"
+    },
+    {
+      "name": "domain-modeling",
+      "path": "engineering/domain-modeling",
+      "dependencyOf": ["grill-with-docs"]
+    },
+    {
+      "name": "to-spec",
+      "path": "engineering/to-spec",
+      "dependencyOf": ["setup-matt-pocock-skills"]
+    },
+    {
+      "name": "to-tickets",
+      "path": "engineering/to-tickets",
+      "dependencyOf": ["setup-matt-pocock-skills"]
+    },
+    {
+      "name": "setup-matt-pocock-skills",
+      "path": "engineering/setup-matt-pocock-skills"
+    }
+  ]
+}
