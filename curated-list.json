@@ -1,7 +1,7 @@
 {
   "plugin": {
     "name": "mattp",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "description": "Curated subset of Matt Pocock's engineering and productivity skills"
   },
   "skills": [
@@ -40,6 +40,10 @@
     {
       "name": "pr",
       "path": "engineering/pr"
+    },
+    {
+      "name": "handoff",
+      "path": "productivity/handoff"
     }
   ]
 }
