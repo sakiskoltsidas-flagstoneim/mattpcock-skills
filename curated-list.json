@@ -1,7 +1,7 @@
 {
   "plugin": {
     "name": "mattp",
-    "version": "1.2.5",
+    "version": "1.2.7",
     "description": "Curated subset of Matt Pocock's engineering and productivity skills"
   },
   "skills": [
@@ -44,6 +44,14 @@
     {
       "name": "handoff",
       "path": "productivity/handoff"
+    },
+    {
+      "name": "writing-for-agents",
+      "path": "productivity/writing-for-agents"
+    },
+    {
+      "name": "wait-what",
+      "path": "productivity/wait-what"
     }
   ]
 }
