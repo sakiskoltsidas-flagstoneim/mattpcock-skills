@@ -1,7 +1,7 @@
 {
   "plugin": {
     "name": "mattp",
-    "version": "1.2.7",
+    "version": "1.2.8",
     "description": "Curated subset of Matt Pocock's engineering and productivity skills"
   },
   "skills": [
@@ -12,7 +12,7 @@
     {
       "name": "grilling",
       "path": "productivity/grilling",
-      "dependencyOf": ["grill-me", "grill-with-docs"]
+      "dependencyOf": ["grill-me", "grill-with-docs", "wayfinder"]
     },
     {
       "name": "grill-with-docs",
@@ -21,7 +21,7 @@
     {
       "name": "domain-modeling",
       "path": "engineering/domain-modeling",
-      "dependencyOf": ["grill-with-docs"]
+      "dependencyOf": ["grill-with-docs", "wayfinder"]
     },
     {
       "name": "to-spec",
@@ -52,6 +52,20 @@
     {
       "name": "wait-what",
       "path": "productivity/wait-what"
+    },
+    {
+      "name": "wayfinder",
+      "path": "engineering/wayfinder"
+    },
+    {
+      "name": "research",
+      "path": "engineering/research",
+      "dependencyOf": ["wayfinder"]
+    },
+    {
+      "name": "prototype",
+      "path": "engineering/prototype",
+      "dependencyOf": ["wayfinder"]
     }
   ]
 }
